@@ -45,6 +45,12 @@ nav a {
     transition: all .2s ease-in-out;
 }
 
+span {
+    color: #0967d2;
+    font-size: 1rem;
+    font-weight: 400;
+ }
+
 nav a:hover {
     color: #0967d2;
 }
