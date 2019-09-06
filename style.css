@@ -1,23 +1,23 @@
 * {
     font-family: 'Lato', sans-serif;
     font-size: 1.25rem;
+    font-weight: 300;
     margin: 0;
 }
 
 body {
     background: #ffffff;
+    border-top: .4rem solid #0967d2; 
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    margin: 0 2rem;
-    font-weight: 300;
   }
 
 
 #logo {
-    display: flex;
+    display: inline-flex;
     align-items: center;
 }
 
@@ -27,37 +27,88 @@ header {
     padding-left: 1.5rem;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+}
+
 li {
-display: inline-flex;
-padding: 1rem;
+    display: inline-flex;
+    padding: 1rem;
 }
 
 a {
-color: #7b8794;
-text-decoration: none;
-transition: all .2s ease-in-out;
+    color: #7b8794;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+button a {
+    color: #0967d2;
+    font-weight:400;
+}
+
+button a:hover {
+    color: #0077ff;
 }
 
 a:hover {
-color: #0967d2;
+    color: #0967d2;
 }
 
 .hero {
-    background-image: https://tk-assets.lambdaschool.com/33d3e37f-c845-466e-8bb8-1adec86324bd_HeroImage.png;
+    height: 600px;
+    background: url("https://tk-assets.lambdaschool.com/33d3e37f-c845-466e-8bb8-1adec86324bd_HeroImage.png") no-repeat center;
+    background-size: cover;
 }
 
 h1 {
     font-size: 4rem;
+    font-weight:700;
     color: #FFFFFF;
+    padding-top: 5rem;
+    padding-left: 5rem;
 }
 
+.hero h2 {
+    font-size: 1.75rem;
+    color: #FFFFFF;
+    width: 50%;
+    padding-top: 1rem;
+    padding-left: 5rem;
+}
+
+button {
+    margin-top: 1.5rem;
+    border-radius: 3px;
+    padding: .5rem;
+    margin-left: 5rem;
+}
+
+main {
+    background-color: #f5f7fa;
+}
+.title {
+    padding: 3rem 0;
+}
+
+.title p {
+    font-size: 1.75rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+}
 
 .card {
-    padding: 15px; 
+    padding: 2rem; 
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     text-align: center;
-    width: 200px;
+    width: 20rem;
     margin: 20px auto;
-  }
+}
+
