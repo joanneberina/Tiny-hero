@@ -59,7 +59,7 @@ nav a:hover {
     color: #0967d2;
     font-weight:700;
     margin-top: 1.5rem;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 1rem 1.5rem;
     margin-left: 5rem;
 }
@@ -140,7 +140,7 @@ section {
     color: #0967d2;
     margin: 2rem auto 0;
     border: 1px solid #0967d2;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: .5rem;
     text-align: center;
 }
