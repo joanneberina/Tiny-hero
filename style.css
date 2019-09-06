@@ -78,7 +78,7 @@ nav a:hover {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight:700;
     color: #FFFFFF;
     padding-top: 5rem;
@@ -86,9 +86,9 @@ h1 {
 }
 
 .hero h2 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     color: #FFFFFF;
-    width: 50%;
+    width: 40%;
     padding-top: 1rem;
     padding-left: 5rem;
 }
