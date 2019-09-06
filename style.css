@@ -30,6 +30,7 @@ header {
 nav {
     display: flex;
     align-items: center;
+    padding-right: 1rem;
 }
 
 li {
@@ -38,6 +39,7 @@ li {
 }
 
 a {
+    font-size: 1rem;
     color: #7b8794;
     text-decoration: none;
     transition: all .2s ease-in-out;
@@ -100,6 +102,7 @@ main {
 
 section {
     display: flex;
+    justify-content: center;
 }
 
 .card {
@@ -108,7 +111,48 @@ section {
     border-radius: 8px;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     text-align: center;
-    width: 20rem;
-    margin: 20px auto;
+    width: 200px;
+    margin: 2rem;
 }
 
+.card img {
+    width: 50%;
+}
+
+.card h2 {
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #7b8794;
+    margin-top: 1rem;
+}
+
+.card-button {
+    font-size: 1rem;
+    color: #0967d2;
+    margin: 2rem auto 0;
+    border: 1px solid #0967d2;
+    padding: .5rem;
+    text-align: center;
+}
+
+.card-button:hover {
+    background-color: #0967d2;
+    color: #FFFFFF;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    color: #7b8794;
+}
+
+footer p {
+    font-size: .75rem;
+    margin-bottom: 1.5rem;
+}
