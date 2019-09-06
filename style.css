@@ -1,3 +1,4 @@
+/* general styles */
 * {
     font-family: 'Lato', sans-serif;
     font-size: 1.25rem;
@@ -10,12 +11,12 @@ body {
     border-top: .4rem solid #0967d2; 
 }
 
+/* header */
 header {
     display: flex;
     justify-content: space-between;
     height: 75px;
   }
-
 
 #logo {
     display: inline-flex;
@@ -27,7 +28,7 @@ header {
     padding-right: .5rem;
     padding-left: 1.5rem;
 }
-
+/* navigation styles */
 nav {
     display: flex;
     align-items: center;
@@ -56,6 +57,7 @@ nav a:hover {
     color: #0967d2;
 }
 
+/* Hero section */
 .hero button{
     color: #0967d2;
     font-weight:700;
@@ -92,7 +94,7 @@ h1 {
     padding-top: 1rem;
     padding-left: 5rem;
 }
-
+/* Main section */
 main {
     background-color: #f5f7fa;
 }
@@ -110,7 +112,7 @@ section {
     display: flex;
     justify-content: center;
 }
-
+/* Cards */
 .card {
     padding: 2rem; 
     background-color: white;
@@ -151,6 +153,7 @@ section {
     color: #FFFFFF;
 }
 
+/* Footer */
 footer {
     display: flex;
     flex-direction: column;
@@ -163,3 +166,6 @@ footer p {
     font-size: .75rem;
     margin-bottom: 1.5rem;
 }
+
+/* Mobile media query */
+
