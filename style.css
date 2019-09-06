@@ -38,25 +38,32 @@ li {
     padding: 1rem;
 }
 
-a {
+nav a {
     font-size: 1rem;
     color: #7b8794;
     text-decoration: none;
     transition: all .2s ease-in-out;
 }
 
+nav a:hover {
+    color: #0967d2;
+}
+
 button a {
+    text-decoration: none;
     color: #0967d2;
     font-weight:400;
 }
 
-button a:hover {
-    color: #0077ff;
+button:hover {
+    background-color: #0967d2;
 }
 
-a:hover {
-    color: #0967d2;
+button a:hover {
+    color: #FFFFFF;
 }
+
+
 
 .hero {
     height: 600px;
