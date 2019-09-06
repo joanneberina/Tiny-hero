@@ -64,7 +64,6 @@ nav a:hover {
 }
 
 
-
 .hero {
     height: 600px;
     background: url("https://tk-assets.lambdaschool.com/33d3e37f-c845-466e-8bb8-1adec86324bd_HeroImage.png") no-repeat center;
@@ -72,7 +71,7 @@ nav a:hover {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight:700;
     color: #FFFFFF;
     padding-top: 5rem;
