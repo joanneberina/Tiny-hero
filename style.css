@@ -51,7 +51,11 @@ nav a:hover {
 
 .hero button{
     color: #0967d2;
-    font-weight:400;
+    font-weight:700;
+    margin-top: 1.5rem;
+    border-radius: 3px;
+    padding: 1rem 1.5rem;
+    margin-left: 5rem;
 }
 
 .hero button:hover {
@@ -81,13 +85,6 @@ h1 {
     width: 50%;
     padding-top: 1rem;
     padding-left: 5rem;
-}
-
-button {
-    margin-top: 1.5rem;
-    border-radius: 3px;
-    padding: .5rem;
-    margin-left: 5rem;
 }
 
 main {
