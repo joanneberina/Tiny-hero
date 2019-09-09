@@ -14,7 +14,7 @@ body {
 /* header */
 
 .mobile-menu {
-    display: none;
+    display: none ;
 }
 
 header {
@@ -63,8 +63,11 @@ nav a:hover {
 }
 
 /* Hero section */
-#hero-back img {
+
+#hero-back {
     position: relative;
+}
+#hero-back img {
     width: 100%;
     min-width: 400px;
     height: auto;
@@ -72,11 +75,11 @@ nav a:hover {
 
 .hero-text {
     position: absolute;
-    top: 10%;
+    top: 2%;
 }
 
 .hero-text h1 {
-    font-size: 4.5rem;
+    font-size: 4.5rem; 
     font-weight:700;
     color: #FFFFFF;
     padding-top: 5rem;
@@ -180,14 +183,24 @@ footer p {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    
+    header {
+        height: inherit;
+        padding: 1rem 0;
+    }
     nav {
         display: none;
+    }
+    nav ul {
+        display: block;
     }
 
     .mobile-menu {
         display: flex;
         align-items: center;
+        z-index: 99999;
+    }
+
+    .mobile-menu a {
         padding-right: 1rem;
     }
 
@@ -218,10 +231,14 @@ footer p {
     }
 
     .title p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .card {
         margin: 1rem;
+    }
+
+    .visible {
+        display: block;
     }
 }
