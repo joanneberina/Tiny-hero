@@ -17,7 +17,7 @@
             " alt="Tiny logo. A blue square with a white outline of a house">
             <p id="brand">Tiny</p>
         </div>
-        <nav>
+        <nav id="top-nav">
             <ul>
                 <li><a href="/buy">Buy</a></li>
                 <li><a href="/rent">Rent</a></li>
@@ -27,7 +27,7 @@
             </ul>
         </nav>
         <div class="mobile-menu">
-            <a class="bars" href="#"><i class="fa fa-bars"></i></a>
+            <a class="bars" href="#" onclick="myFunction()"><i class="fa fa-bars"></i></a>
         </div>
     </header>
     <!-- Hero section -->
@@ -84,5 +84,11 @@
         </nav>
         <p>©2019 Tiny, LLC</p>
     </footer>
+
+    <script>
+    function myFunction() {
+        document.getElementById("top-nav").classList.toggle("visible")
+    }
+    </script>
 </body>
 </html>
