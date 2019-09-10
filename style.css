@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #ffffff;
+    background:#f5f7fa;;
     border-top: .4rem solid #0967d2; 
 }
 
@@ -21,6 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     height: 75px;
+    background-color: #FFFFFF;
   }
 
 #logo {
@@ -63,6 +64,10 @@ nav a:hover {
 }
 
 /* Hero section */
+
+button {
+    background-color: #FFFFFF;
+}
 
 #hero-back {
     position: relative;
@@ -108,8 +113,13 @@ nav a:hover {
 }
 
 /* Main section */
-main, .title {
-    background-color: #f5f7fa;
+
+.main {
+    padding: 2rem 0;
+}
+
+.title {
+    margin-top: 2rem;
 }
 
 .title p {
@@ -225,7 +235,6 @@ footer p {
         margin-left: 1rem;
         margin-top: .5rem;
         font-size: 1rem;
-        background-color: #FFFFFF;
     }
 
     section {
@@ -246,10 +255,6 @@ footer p {
     .card {
         max-width: 200px;
         margin-bottom: 2rem 0;
-    }
-
-    .card-button {
-        background-color: #FFFFFF;
     }
 
     .visible {
