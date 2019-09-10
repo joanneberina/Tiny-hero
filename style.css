@@ -181,8 +181,7 @@ footer p {
     margin-bottom: 1.5rem;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 600px) {
     header {
         height: inherit;
         padding: 1rem 0;
@@ -202,6 +201,7 @@ footer p {
 
     .mobile-menu a {
         padding-right: 1rem;
+        color: #0967d2;
     }
 
     .hero-text {
@@ -222,6 +222,16 @@ footer p {
     .hero-text button{
         margin-left: 1.5rem;
         margin-top: .5rem;
+        padding: 1rem;
+        font-size: 1rem;
+        background-color: #FFFFFF;
+    }
+
+    #hero-back {
+        width: 450px;
+        height: auto;
+        object-fit: contain;
+    
     }
     
     section {
@@ -230,12 +240,21 @@ footer p {
         padding-bottom: 4rem;
     }
 
+    .title {
+        padding: 2rem 1.5rem 1rem 1.5rem;
+    }
+
     .title p {
         font-size: 1.2rem;
+        margin-bottom: .5rem;
     }
 
     .card {
         margin: 1rem;
+    }
+
+    .card-button {
+        background-color: #FFFFFF;
     }
 
     .visible {
