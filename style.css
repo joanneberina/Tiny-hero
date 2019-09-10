@@ -69,13 +69,12 @@ nav a:hover {
 }
 #hero-back img {
     width: 100%;
-    min-width: 400px;
     height: auto;
 }
 
 .hero-text {
     position: absolute;
-    top: 2%;
+    top: 10%;
 }
 
 .hero-text h1 {
@@ -109,17 +108,13 @@ nav a:hover {
 }
 
 /* Main section */
-main {
+main, .title {
     background-color: #f5f7fa;
-}
-.title {
-    padding: 5rem 0 2rem 0;
 }
 
 .title p {
     font-size: 1.75rem;
     text-align: center;
-    margin: 0 auto;
 }
 
 section {
@@ -134,7 +129,7 @@ section {
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     text-align: center;
     width: 200px;
-    margin: 2rem 1.5rem 6rem 1.5rem;
+    margin: 2rem;
 }
 
 .card img {
@@ -181,11 +176,17 @@ footer p {
     margin-bottom: 1.5rem;
 }
 
-@media (min-width: 300px) and (max-width: 600px) {
+@media (max-width: 600px) {
+
     header {
         height: inherit;
-        padding: 1rem 0;
+        padding: .5rem;
     }
+
+    #logo img {
+        height: 20px;
+    }
+    
     nav {
         display: none;
     }
@@ -195,7 +196,7 @@ footer p {
 
     .mobile-menu {
         display: flex;
-        align-items: center;
+        justify-content: flex-end;
         z-index: 99999;
     }
 
@@ -206,51 +207,45 @@ footer p {
 
     .hero-text {
         top: 2%;
+        padding-left: 1rem;
     }
 
     .hero-text h1 {
         font-size: 2rem;
-        padding-left: 1.5rem;
+        padding-left: 1rem;
     }
     
     .hero-text h2 {
         font-size: 1rem;
         width: 70%;
-        padding: 1rem 0 0 1.5rem;
+        padding: .5rem 0 0 1rem;
     }
 
     .hero-text button{
-        margin-left: 1.5rem;
+        margin-left: 1rem;
         margin-top: .5rem;
-        padding: 1rem;
         font-size: 1rem;
         background-color: #FFFFFF;
     }
 
-    #hero-back {
-        width: 450px;
-        height: auto;
-        object-fit: contain;
-    
-    }
-    
     section {
+        display: flex;
         flex-direction: column;
         align-items: center;
-        padding-bottom: 4rem;
     }
 
     .title {
-        padding: 2rem 1.5rem 1rem 1.5rem;
+        padding-top: 2rem;
     }
 
     .title p {
-        font-size: 1.2rem;
-        margin-bottom: .5rem;
+        font-size: 1rem;
+        padding-top: .2rem;
     }
 
     .card {
-        margin: 1rem;
+        max-width: 200px;
+        margin-bottom: 2rem 0;
     }
 
     .card-button {
@@ -260,4 +255,34 @@ footer p {
     .visible {
         display: block;
     }
+}
+
+@media (min-width: 601px) and (max-width:1000px) {
+
+    nav ul {
+        display: flex;
+    }
+
+    .hero-text {
+        top: 5%;
+    }
+
+    .hero-text h1 {
+        font-size: 3rem;
+    }
+
+    .hero-text h2 {
+        font-size: 1.5rem;
+        width: 70%;
+    }
+
+    .title {
+        padding-top: 2rem;
+    }
+
+    .title p {
+        font-size: 1.5rem;
+        padding-bottom: .2rem;
+    }
+    
 }
